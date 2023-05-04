@@ -1,5 +1,5 @@
 #!/bin/bash
 
-.\env\Scripts\Activate.ps1
+source env/bin/activate
 
 cd /var/lib/jenkins/workspace/django-cicd

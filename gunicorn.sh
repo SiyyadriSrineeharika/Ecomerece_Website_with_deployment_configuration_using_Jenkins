@@ -2,7 +2,7 @@
 
 source env/bin/activate
 
-cd /var/lib/jenkins/workspace/django-cicd
+cd /var/lib/jenkins/workspace/django-cicd/shoppinglyx
 
 python3 manage.py makemigrations
 python3 manage.py migrate

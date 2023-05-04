@@ -7,7 +7,7 @@ else
     python3 -m venv env
 fi
 echo $PWD
-source env/bin/activate
+.env/Scripts/Activate.ps1
 
 
 pip3 install -r requirements.txt
